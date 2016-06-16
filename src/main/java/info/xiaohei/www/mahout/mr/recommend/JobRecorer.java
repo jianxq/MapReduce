@@ -22,4 +22,8 @@ public class JobRecorer implements IDRescorer {
     public boolean isFiltered(long l) {
         return jobIds.contains(l);
     }
+    
+    public static void main(String[] args) {
+		System.out.println(0.0d / 0.0);
+	}
 }
